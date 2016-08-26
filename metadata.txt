@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Save Layer in MongoDB
+qgisMinimumVersion=2.0
+description=This plugin saves data from a layer in a MongoDB database.
+version=0.1
+author=Vasilios Kalogirou
+email=kalogirou.vasilis@gmail.com
+
+about=This plugin connects to MongoDB and allows the user to save data from a layer that is loaded in QGIS directly into a MongoDB database.
+
+tracker=https://github.com/VasiliosKalogirou/Save-layer-in-MongoDB/issues
+repository=https://github.com/VasiliosKalogirou/Save-layer-in-MongoDB
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=database, layers, mongodb
+
+homepage=https://github.com/VasiliosKalogirou/Save-layer-in-MongoDB
+category=Database
+icon=MongoDB128.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
